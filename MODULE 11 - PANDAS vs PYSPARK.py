@@ -132,6 +132,7 @@ import openai
 from dotenv import load_dotenv
 import numpy as np
 import pandas as pd
+from pyspark.sql import Row
 
 def make_message(role, content):
     return Row(role=role, content=content, name=role)

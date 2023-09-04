@@ -42,7 +42,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 import pandas as pd
 # File location and type
-file_location = "./bbc_news_data_embedding.csv"
+file_location = "/FileStore/tables/bbc_news_data.csv"
 file_type = "csv"
 
 # CSV options
@@ -60,7 +60,7 @@ df = spark.read.format('com.databricks.spark.csv') \
 temp_table_name = "bbc_news_data_embedding_csv"
 
 df.createOrReplaceTempView(temp_table_name)
-df = df.toPandas()
+df = df.limit(100).toPandas()
 
 # COMMAND ----------
 

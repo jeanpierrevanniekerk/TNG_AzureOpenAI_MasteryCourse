@@ -17,9 +17,17 @@
 
 # COMMAND ----------
 
+!pwd
+
+# COMMAND ----------
+
+dbutils.fs.cp ("file:/Workspace/Repos/AzureOpenAIMasteryCourse/TNG_AzureOpenAI_MasteryCourse/bbc-news-data.csv", "dbfs:/FileStore/tables/bbc_news_data.csv")
+
+# COMMAND ----------
+
 import pandas as pd
 # File location and type
-file_location = "/FileStore/tables/bbc_news_data_embedding.csv"
+file_location = "/FileStore/tables/bbc_news_data.csv"
 file_type = "csv"
 
 # CSV options
@@ -99,3 +107,7 @@ sns.catplot(data=df, x="category", y="word_count", kind="box", height=5)
 # COMMAND ----------
 
 #df.to_csv("../data/bbc-news-data-00.csv", sep='\t')
+
+# COMMAND ----------
+
+

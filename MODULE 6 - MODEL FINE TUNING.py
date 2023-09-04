@@ -140,6 +140,11 @@ result
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC # Wait for Model to be trained
+
+# COMMAND ----------
+
 # Retrieve the name of the customized model from the fine-tune job.
 result = openai.FineTune.retrieve(id=job_id)
 if result["status"] == 'succeeded':
