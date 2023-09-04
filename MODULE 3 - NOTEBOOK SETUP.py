@@ -4,7 +4,8 @@
 
 # COMMAND ----------
 
-!pip install -r /Workspace/Repos/jeanpierre.vanniekerk@truenorthgroup.co.za/document-analysis-using-gpt-3.ide/notebooks/requirements.txt
+# MAGIC %%capture
+# MAGIC !pip install -r ./requirements.txt
 
 # COMMAND ----------
 
