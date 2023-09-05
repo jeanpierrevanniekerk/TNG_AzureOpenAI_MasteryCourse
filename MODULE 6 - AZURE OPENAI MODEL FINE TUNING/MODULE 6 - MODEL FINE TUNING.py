@@ -1,11 +1,8 @@
 # Databricks notebook source
 # MAGIC %%capture
-# MAGIC !pip install -r ./requirements.txt
-
-# COMMAND ----------
-
-!pip install requests
-!pip install pillow 
+# MAGIC !pip install -r ../requirements.txt
+# MAGIC !pip install requests
+# MAGIC !pip install pillow 
 
 # COMMAND ----------
 

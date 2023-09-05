@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %%capture
-# MAGIC !pip install -r ./requirements.txt
+# MAGIC !pip install -r ../requirements.txt
 
 # COMMAND ----------
 
@@ -25,6 +25,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # MAGIC %%capture
 # MAGIC !pip install redis
 # MAGIC !pip install redis-enterprise-python
+# MAGIC !pip install feedparser
 
 # COMMAND ----------
 

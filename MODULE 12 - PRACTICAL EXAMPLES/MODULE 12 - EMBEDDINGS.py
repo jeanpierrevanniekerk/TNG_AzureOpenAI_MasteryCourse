@@ -18,7 +18,7 @@
 # COMMAND ----------
 
 # MAGIC %%capture
-# MAGIC !pip install -r ./requirements.txt
+# MAGIC !pip install -r ../requirements.txt
 
 # COMMAND ----------
 
@@ -60,7 +60,7 @@ df = spark.read.format('com.databricks.spark.csv') \
 temp_table_name = "bbc_news_data_embedding_csv"
 
 df.createOrReplaceTempView(temp_table_name)
-df = df.limit(100).toPandas()
+df = df.toPandas()
 
 # COMMAND ----------
 
