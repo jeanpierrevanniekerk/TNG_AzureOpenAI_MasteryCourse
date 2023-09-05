@@ -48,3 +48,10 @@ Make sure you have access to the following Azure resources within your tenant:
 2) Exercise 2 – Access Azure OpenAI LLM functionality using Python SDK:
    - Access Module 4: SDK notebook on the Git Repository.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%204%20-%20AZURE%20OPENAI%20APIs%20%26%20SDKs
+
+
+# Module 5 – Prompt Engineering
+* Introduction to Azure OpenAI Prompt Engineering. Theoretical content contained within the slide deck.
+1) Exercise 1 – Test various prompt engineering techniques:
+   - Access Module 5: Prompt Engineering Notebook on Git Repository.
+      - 
