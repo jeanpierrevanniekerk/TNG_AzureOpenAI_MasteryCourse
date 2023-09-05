@@ -63,6 +63,7 @@ Make sure you have access to the following Azure resources within your tenant:
    - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt":"When I go to the store, I want an","max_tokens":500}'
 2) Exercise 2 – Setup fine-tuned model using Azure OpenAI Python SDK:
     - Access Module 6: Model Fine Tuning Notebook on Git Repository.
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%206%20-%20AZURE%20OPENAI%20MODEL%20FINE%20TUNING
     - Setup model and train the model.
 3) Exercise 3 – Use fine-tuned model using CLI:
     - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt":"When I go to the store, I want an ","max_tokens":500}'
