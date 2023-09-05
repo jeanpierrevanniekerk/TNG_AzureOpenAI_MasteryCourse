@@ -77,5 +77,5 @@ Make sure you have access to the following Azure resources within your tenant:
    - Access Module 7: Embedding Models Notebook to write to Redis for cache database.
       - Also run embedding models to embed text into vectors.
       - Analyse and evaluate output.
-      - 
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%207%20-%20AZURE%20OPENAI%20EMBEDDING%20MODELS
 
