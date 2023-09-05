@@ -46,7 +46,7 @@ redis_port = '10000'
 redis_password = os.getenv('REDIS_PASSWORD')
  
 # Connect to the Redis server
-conn = redis.Redis(host=redis_host, port=redis_port, password=redis_password)#, encoding='utf-8', decode_responses=True)
+conn = redis.Redis(host=redis_host, port=redis_port, password=redis_password)
 if conn.ping():
     print("Connected to Redis")
  
@@ -66,7 +66,7 @@ for i, entry in enumerate(feed.entries[:50]):
     article = soup.find('div', {'class': 'entry-content'}).text
  
     #vectorize with OpenAI text-emebdding-ada-002
-    embedding = openai.Embedding.create(input=article,model="text-embedding-ada-002")
+    embedding = openai.Embedding.create(input=article,deployment_id="text-embedding-ada-002")
 
     # print the embedding (length = 1536)
     vector = embedding["data"][0]["embedding"]
@@ -91,7 +91,7 @@ from redis.commands.search.indexDefinition import IndexDefinition, IndexType
  
 # Redis connection details
 redis_host = os.getenv('REDIS_HOST')
-redis_port = os.getenv('REDIS_PORT')
+redis_port = '10000'
 redis_password = os.getenv('REDIS_PASSWORD')
  
 # Connect to the Redis server
@@ -136,7 +136,7 @@ query = input("Enter your query: ")
  
 # Vectorize the query using OpenAI's text-embedding-ada-002 model
 print("Vectorizing query...")
-embedding = openai.Embedding.create(input=query, model="text-embedding-ada-002")
+embedding = openai.Embedding.create(input=query, deployment_id="text-embedding-ada-002")
 query_vector = embedding["data"][0]["embedding"]
  
 # Convert the vector to a numpy array
