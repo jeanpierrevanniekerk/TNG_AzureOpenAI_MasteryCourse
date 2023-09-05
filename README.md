@@ -113,4 +113,4 @@ Make sure you have access to the following Azure resources within your tenant:
 * Introduction to Azure OpenAI Pandas vs Pyspark. Theoretical content contained within the slide deck.
 1) Exercise 1 – Identify how one would use Pandas and Pyspark to interface with the Azure OpenAI SDKs:
    - Access Module 11: Pandas vs Pyspark Notebook to get a view of how one would leverage Pyspark to scale these LLM solutions.
-      -
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%2011%20-%20AZURE%20OPENAI%20PANDAS%20VS%20PYSPARK
