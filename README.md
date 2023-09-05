@@ -67,3 +67,15 @@ Make sure you have access to the following Azure resources within your tenant:
     - Setup model and train the model.
 3) Exercise 3 – Use fine-tuned model using CLI:
     - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt":"When I go to the store, I want an ","max_tokens":500}'
+  
+
+# Module 7 – Embedding Models
+* Introduction to Azure OpenAI Embedding Models. Theoretical content contained within the slide deck.
+1) Exercise 1 – Setup Redis for cache database and utilise Embedding models:
+   - Create an Enterprise Redis for Cache database on the Azure Portal.
+   - Retrieve the Redis Host and Password once the database has been provisioned and insert it into the init.sh file.
+   - Access Module 7: Embedding Models Notebook to write to Redis for cache database.
+      - Also run embedding models to embed text into vectors.
+      - Analyse and evaluate output.
+      - 
+
