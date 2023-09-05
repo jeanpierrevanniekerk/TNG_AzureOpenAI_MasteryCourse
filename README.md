@@ -34,3 +34,21 @@ Make sure you have access to the following Azure resources within your tenant:
    - Setup .ini file containing the required key and base for the Azure OpenAI subscription.
    - Reference Module 3 notebook on the Git Repository to test the connection.
 
+
+# Module 4 – APIs and SDKs
+* Introduction to Azure OpenAI APIs and SDKs. Theoretical content contained within the slide deck.
+1) Exercise 1 – Login to Azure CLI and then interact with an Azure OpenAI LLM:
+   - Make sure you have the necessary permissions to access the Azure CLI
+      - az login
+      - export accessToken=$(az account get-access-token --resource https://cognitiveservices.azure.com | jq -r .accessToken)
+      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 \
+         -H "Content-Type: application/json" \
+         -H "Authorization: Bearer $accessToken" \
+         -d '{ "prompt": "Tell me a funny story.", "max_tokens":5 }'
+      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 \
+         -H "Content-Type: application/json" \
+         -H "Authorization: Bearer $accessToken" \
+         -d '{ "prompt": "Tell me a funny story.", "max_tokens":500}'
+
+•	Exercise 2 – Access Azure OpenAI LLM functionality using Python SDK:
+1)	Access Module 4 – SDK notebook on the Git Repository.
