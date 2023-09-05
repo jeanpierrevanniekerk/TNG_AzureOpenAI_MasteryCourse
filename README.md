@@ -96,3 +96,14 @@ Make sure you have access to the following Azure resources within your tenant:
 3) Exercise 3 – Generate an image using the Azure Python SDKs:
    - Access Module 9: DALL.E Notebook allowing the user to generate images using the Python SDK.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%209%20-%20AZURE%20OPENAI%20DALL.E
+    
+
+# Module 10 – Grounding your model using your own data
+* Introduction to Azure OpenAI Grouding Models. Theoretical content contained within the slide deck.
+1) Exercise 1 – Use the Azure OpenAI Studio to ground a model:
+   - Generate a text file and copy some text in there.
+   - Upload it to the Azure OpenAI Studio during model grounding.
+   - Ask questions related to the text in the text file.
+2) Exercise 2 – Use the Azure CLI to access and interface with the grounding model:
+   - curl -i -X POST https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/extensions/chat/completions?api-version=2023-06-01-preview -H "Content-Type: application/json" -H "api-key: 7079b53b72df4f04bf94a302697561e9" -H "chatgpt_url: https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/extensions/chat/completions?api-version=2023-06-01-preview" -H "chatgpt_key: 7079b53b72df4f04bf94a302697561e9" -d '{"dataSources": [{"type": "AzureCognitiveSearch","parameters":{"endpoint":"https://tngcognitivesearch.search.windows.net/indexes/useyourowndata/docs?api-version=2023-07-01-Preview&search=*","key":"n9ZqMO9M3zdLfpImh30FI9JFV2k8vhc0mTdhLFNRQfAzSeD9y1Ej","indexName": "useyourowndata"}}],"messages": [{"role": "user","content": "Is there a module that touches on Pandas code?"}]}'
+
