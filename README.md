@@ -14,12 +14,12 @@ Make sure you have access to the following Azure resources within your tenant:
 # Module 2 – Azure OpenAI studio Playground
 * Introduction to Azure OpenAI Studio Playground. Theoretical content contained within the slide deck.
 1) Exercise 1 – Setup and login to Azure OpenAI studio:
-  - Setup Azure OpenAI studio.
-2) Exercise 2 – Interface with the Azure OpenAI studio Completion Playground:
-  - Deploy and interface with the Azure Completion Playground.
+   Setup Azure OpenAI studio.
+3) Exercise 2 – Interface with the Azure OpenAI studio Completion Playground:
+   Deploy and interface with the Azure Completion Playground.
 3) Exercise 3 – Interface with Azure OpenAI studio Chat Playground:
-  - Deploy and interface with the Azure Chat Playground.
-4) Exercise 4 – Interface with DALL.E Playground:
-  - Test the DALL.E playground and its functionality.
+   Deploy and interface with the Azure Chat Playground.
+5) Exercise 4 – Interface with DALL.E Playground:
+   Test the DALL.E playground and its functionality.
 
 
