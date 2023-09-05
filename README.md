@@ -87,3 +87,12 @@ Make sure you have access to the following Azure resources within your tenant:
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%208%20-%20AZURE%20OPENAI%20CODEX
 
 
+# Module 9 – DALL.E
+* Introduction to Azure OpenAI DALL.E Models. Theoretical content contained within the slide deck.
+1) Exercise 1 – Generate an image using the Azure CLI:
+   - curl https://tngpocazureopenai-services.openai.azure.com/openai/images/generations:submit?api-version=2023-06-01-preview -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{"prompt": "An avocado chair","size": "512x512","n": 3,"response_format": "url"}'
+2) Exercise 2 – Retrieve an image using the Azure CLI:
+    - curl -X GET "https://tngpocazureopenai-services.openai.azure.com/openai/operations/images/88ef2a2e-9a18-497b-988a-eecd86132dbb?api-version=2023-06-01-preview" -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken"
+3) Exercise 3 – Generate an image using the Azure Python SDKs:
+   - Access Module 9: DALL.E Notebook allowing the user to generate images using the Python SDK.
+      -
