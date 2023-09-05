@@ -147,3 +147,14 @@ Make sure you have access to the following Azure resources within your tenant:
    - Setup the Azure DevOps pipelines and releases.
    - Push Dev notebook to Prod Databricks Environment.
    - Setup scheduling and notification functionalities.
+
+
+# MODULE 14 – Advanced Use Cases
+* Getting some exposure to advances Azure OpenAI use cases. Theoretical content contained within the slide deck.
+
+
+# MODULE 15 – Summary and Conclusion
+* Summarizing the content covered in the Azure OpenAI Mastery course.
+* Discussion potential next steps and how TNG can help expedite Azure OpenAI implementations in your organisation.
+
+
