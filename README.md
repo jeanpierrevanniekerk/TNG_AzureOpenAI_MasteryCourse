@@ -79,3 +79,11 @@ Make sure you have access to the following Azure resources within your tenant:
       - Analyse and evaluate output.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%207%20-%20AZURE%20OPENAI%20EMBEDDING%20MODELS
 
+
+# Module 8 – Codex Models
+* Introduction to Azure OpenAI Codex Models. Theoretical content contained within the slide deck.
+1) Exercise 1 – Run some code queries to test codex capabilities:
+   - Access Module 8: Codex Notebook to run through the various techniques of how the codex models can be used to improve coding productivity and performance.
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%208%20-%20AZURE%20OPENAI%20CODEX
+
+
