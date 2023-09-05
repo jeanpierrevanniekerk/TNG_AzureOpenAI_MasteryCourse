@@ -41,14 +41,8 @@ Make sure you have access to the following Azure resources within your tenant:
    - Make sure you have the necessary permissions to access the Azure CLI
       - az login
       - export accessToken=$(az account get-access-token --resource https://cognitiveservices.azure.com | jq -r .accessToken)
-      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 \
-         -H "Content-Type: application/json" \
-         -H "Authorization: Bearer $accessToken" \
-         -d '{ "prompt": "Tell me a funny story.", "max_tokens":5 }'
-      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 \
-         -H "Content-Type: application/json" \
-         -H "Authorization: Bearer $accessToken" \
-         -d '{ "prompt": "Tell me a funny story.", "max_tokens":500}'
+      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt": "Tell me a funny story.", "max_tokens":5 }'
+      - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt": "Tell me a funny story.", "max_tokens":500}'
 
 •	Exercise 2 – Access Azure OpenAI LLM functionality using Python SDK:
 1)	Access Module 4 – SDK notebook on the Git Repository.
