@@ -95,4 +95,4 @@ Make sure you have access to the following Azure resources within your tenant:
     - curl -X GET "https://tngpocazureopenai-services.openai.azure.com/openai/operations/images/88ef2a2e-9a18-497b-988a-eecd86132dbb?api-version=2023-06-01-preview" -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken"
 3) Exercise 3 – Generate an image using the Azure Python SDKs:
    - Access Module 9: DALL.E Notebook allowing the user to generate images using the Python SDK.
-      -
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%209%20-%20AZURE%20OPENAI%20DALL.E
