@@ -107,3 +107,10 @@ Make sure you have access to the following Azure resources within your tenant:
 2) Exercise 2 – Use the Azure CLI to access and interface with the grounding model:
    - curl -i -X POST https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/extensions/chat/completions?api-version=2023-06-01-previe -H "Content-Type: application/json" -H "api-key: key" -H "chatgpt_url: url" -H "chatgpt_key: key" -d '{"dataSources": [{"type": "AzureCognitiveSearch","parameters":{"endpoint":"url","key":"key","indexName": "useyourowndata"}}],"messages": [{"role": "user","content": "Is there a module that touches on Pandas code?"}]}'
 
+
+
+# MODULE 11 – Pandas vs Pyspark with Azure OpenAI
+* Introduction to Azure OpenAI Pandas vs Pyspark. Theoretical content contained within the slide deck.
+1) Exercise 1 – Identify how one would use Pandas and Pyspark to interface with the Azure OpenAI SDKs:
+   - Access Module 11: Pandas vs Pyspark Notebook to get a view of how one would leverage Pyspark to scale these LLM solutions.
+      -
