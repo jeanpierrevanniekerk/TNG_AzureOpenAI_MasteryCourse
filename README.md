@@ -33,6 +33,7 @@ Make sure you have access to the following Azure resources within your tenant:
    - Ensure you have the requirements.txt file in your home directory to install the relevant libraries when running the notebooks.
    - Setup .ini file containing the required key and base for the Azure OpenAI subscription.
    - Reference Module 3 notebook on the Git Repository to test the connection.
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%203%20-%20AZURE%20OPENAI%20%26%20DATABRICKS%20INTEGRATION
 
 
 # Module 4 – APIs and SDKs
@@ -46,3 +47,4 @@ Make sure you have access to the following Azure resources within your tenant:
 
 2) Exercise 2 – Access Azure OpenAI LLM functionality using Python SDK:
    - Access Module 4 – SDK notebook on the Git Repository.
+      - 
