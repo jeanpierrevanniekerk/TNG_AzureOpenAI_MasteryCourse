@@ -136,3 +136,14 @@ Make sure you have access to the following Azure resources within your tenant:
          - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - SEMANTIC SEARCH.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20SEMANTIC%20SEARCH.py)
       - Information Retrieval.
          - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - INFORMATION RETRIEVAL.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20INFORMATION%20RETRIEVAL.py)https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20INFORMATION%20RETRIEVAL.py
+
+
+# MODULE 13 – Azure OpenAI MLOps
+* Introduction to Azure OpenAI MLOPs using Databricks and Azure DevOps. Theoretical content contained within the slide deck.
+1) Exercise 1 – Take the “Data Exploration” notebook through the MLOps lifecycle:
+   - Create 2 Databricks Environments (1 Dev and 1 Prod).
+   - Setup an Azure DevOps repository.
+   - Link the repository with your Dev Databricks Environment.
+   - Setup the Azure DevOps pipelines and releases.
+   - Push Dev notebook to Prod Databricks Environment.
+   - Setup scheduling and notification functionalities.
