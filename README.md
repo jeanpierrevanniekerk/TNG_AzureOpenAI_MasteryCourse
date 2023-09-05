@@ -55,3 +55,14 @@ Make sure you have access to the following Azure resources within your tenant:
 1) Exercise 1 – Test various prompt engineering techniques:
    - Access Module 5: Prompt Engineering Notebook on Git Repository.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%205%20-%20AZURE%20OPENAI%20PROMPT%20ENGINEERING
+
+
+# Module 6 – Model Fine Tuning
+* Introduction to Azure OpenAI Model Fine Tuning. Theoretical content contained within the slide deck.
+1) Exercise 1 – Use general model which has not been fine-tuned using CLI:
+   - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt":"When I go to the store, I want an","max_tokens":500}'
+2) Exercise 2 – Setup fine-tuned model using Azure OpenAI Python SDK:
+    - Access Module 6: Model Fine Tuning Notebook on Git Repository.
+    - Setup model and train the model.
+3) Exercise 3 – Use fine-tuned model using CLI:
+    - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt":"When I go to the store, I want an ","max_tokens":500}'
