@@ -105,5 +105,5 @@ Make sure you have access to the following Azure resources within your tenant:
    - Upload it to the Azure OpenAI Studio during model grounding.
    - Ask questions related to the text in the text file.
 2) Exercise 2 – Use the Azure CLI to access and interface with the grounding model:
-   - curl -i -X POST https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/extensions/chat/completions?api-version=2023-06-01-previe -H "Content-Type: application/json" -H "api-key: '<key>'" -H "chatgpt_url: '<url>'" -H "chatgpt_key: '<key>'" -d '{"dataSources": [{"type": "AzureCognitiveSearch","parameters":{"endpoint":"<url>","key":"<key>","indexName": "useyourowndata"}}],"messages": [{"role": "user","content": "Is there a module that touches on Pandas code?"}]}'
+   - curl -i -X POST https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/extensions/chat/completions?api-version=2023-06-01-previe -H "Content-Type: application/json" -H "api-key: key" -H "chatgpt_url: url" -H "chatgpt_key: key" -d '{"dataSources": [{"type": "AzureCognitiveSearch","parameters":{"endpoint":"url","key":"key","indexName": "useyourowndata"}}],"messages": [{"role": "user","content": "Is there a module that touches on Pandas code?"}]}'
 
