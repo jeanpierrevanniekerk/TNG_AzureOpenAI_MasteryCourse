@@ -78,6 +78,8 @@ Make sure you have access to the following Azure resources within your tenant:
       - Also run embedding models to embed text into vectors.
       - Analyse and evaluate output.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%207%20-%20AZURE%20OPENAI%20EMBEDDING%20MODELS
+      - ![image](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/assets/139854126/913b9034-22a7-4f3d-a3b9-6ed0c9e5e251)
+
 
 
 # Module 8 – Codex Models
