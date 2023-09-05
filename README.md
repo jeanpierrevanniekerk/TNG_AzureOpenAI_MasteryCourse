@@ -121,18 +121,18 @@ Make sure you have access to the following Azure resources within your tenant:
 1) Exercise 1 – Use the Azure OpenAI Example Notebooks to get a good understanding of some practical examples:
    - Access Module 12: Example notebooks to get a view of how we would practically implement the Azure OpenAI LLMs:
       - Data Exploration and Embeddings.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - DATA EXPLORATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - EMBEDDINGS.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - DATA EXPLORATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20DATA%20EXPLORATION.py)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - EMBEDDINGS.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20EMBEDDINGS.py)
       - Visualize Embeddings and Classification Documents.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - VISUALIZE EMBEDDING.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - CLASSIFICATION DOCUMENTS.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - VISUALIZE EMBEDDING.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20VISUALIZE%20EMBEDDING.py)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - CLASSIFICATION DOCUMENTS.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20CLASSIFICATION%20DOCUMENTS.py)
       - Document Summarization.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - DOCUMENT SUMMARIZATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - DOCUMENT SUMMARIZATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20DOCUMENT%20SUMMARIZATION.py)
       - Key Information.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - KEY INFORMATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - KEY INFORMATION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20KEY%20INFORMATION.py)
       - Key Word Extraction.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - KEY WORD EXTRACTION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - KEY WORD EXTRACTION.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20KEY%20WORD%20EXTRACTION.py)
       - Semantic Search.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - SEMANTIC SEARCH.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - SEMANTIC SEARCH.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20SEMANTIC%20SEARCH.py)
       - Information Retrieval.
-         - TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - INFORMATION RETRIEVAL.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)
+         - [TNG_AzureOpenAI_MasteryCourse/MODULE 12 - PRACTICAL EXAMPLES/MODULE 12 - INFORMATION RETRIEVAL.py at main · jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse (github.com)](https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20INFORMATION%20RETRIEVAL.py)https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/blob/main/MODULE%2012%20-%20PRACTICAL%20EXAMPLES/MODULE%2012%20-%20INFORMATION%20RETRIEVAL.py
