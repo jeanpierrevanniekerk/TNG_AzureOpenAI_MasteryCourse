@@ -46,5 +46,5 @@ Make sure you have access to the following Azure resources within your tenant:
       - curl https://tngpocazureopenai-services.openai.azure.com/openai/deployments/ChatGPT/completions?api-version=2022-12-01 -H "Content-Type: application/json" -H "Authorization: Bearer $accessToken" -d '{ "prompt": "Tell me a funny story.", "max_tokens":500}'
 
 2) Exercise 2 – Access Azure OpenAI LLM functionality using Python SDK:
-   - Access Module 4 – SDK notebook on the Git Repository.
-      - 
+   - Access Module 4: SDK notebook on the Git Repository.
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%204%20-%20AZURE%20OPENAI%20APIs%20%26%20SDKs
