@@ -54,4 +54,4 @@ Make sure you have access to the following Azure resources within your tenant:
 * Introduction to Azure OpenAI Prompt Engineering. Theoretical content contained within the slide deck.
 1) Exercise 1 – Test various prompt engineering techniques:
    - Access Module 5: Prompt Engineering Notebook on Git Repository.
-      - 
+      - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%205%20-%20AZURE%20OPENAI%20PROMPT%20ENGINEERING
