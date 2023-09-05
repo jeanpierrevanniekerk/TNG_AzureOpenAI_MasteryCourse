@@ -1,0 +1,132 @@
+* Module 1: Introduction to OpenAI and Generative AI
+	    - History, Theory and Capabilities of OpenAI
+	    - What is Artificial Intelligence
+	    - What is Generative AI
+	    - Collaboration of OpenAI with Microsoft
+	    - Where does OpenAI fit into the product offering of Azure
+	    - Security of OpenAI
+	    - Some use case examples of OpenAI
+
+* Module 2: Introduction to Azure Open AI platform
+	    - Run through the setup and registration of the process
+	    - Run through the various functionalities of the platform
+	    - What is completion, chatCompletion, codex, DELL.E etc.
+	    - Different models available on the Open AI platform (when to use which models)
+	    - Model parameters to optimize performance.
+	    - Run through practical examples of each on the OpenAI Azure Portal.
+
+* Module 3: Introduction to Azure Open AI restful API's and SDK's
+	    - What is the API and SDK connectors and how it can be leveraged
+	    - Which models allow for API and SDK integration
+	    - Compare Azure OpenAI studio capability with the Azure OpenAI Service API's and SDK's
+	    - Run through examples where we access API's (Completions, ChatCompletions, Embeddings)
+	    - Run through examples where we access SDK's (Completions, ChatCompletions, Embeddings)
+ 
+* Module 4: Introduction to Prompt Engineering
+	    - What is prompt engineering and where is it used?
+	    - How to optimize prompt engineering:
+	    - Provide clear instructions
+	    - Section markers
+	    - Primary, supporting and grounding content
+	    - Cues
+	    - Provide context
+	    - System message
+	    - Conversation history
+	    - Few shot learning
+	    - Break down complex tasks
+	    - chain of thought
+
+* Module 5: Introduction to model fine tuning
+	    - What is model fine tuning
+	    - Data preparation
+	    - Weights and biases
+	    - How to perform model fine tuning on the Open AI portal.
+	    - How to deploy a fine-tuned model and use it in your application
+	    - Go through an example using the OpenAI portal.
+
+* Module 6: Introduction to Embeddings
+	    - What are embeddings
+	    - How to get embeddings
+	    - Models used for embeddings
+	    - Practical examples
+
+* Module 7: Introduction to code generation with Azure OpenAI
+	    - What is referred to as code generation and which models should be used for these tasks
+	    - Write functions
+ 	    - Change coding language
+	    - Understand unknown code
+	    - Completion of partial code
+	    - Write Unit tests
+	    - Add comments to code and generate documents for code
+	    - Fix bugs and improve code
+	    - Improve code performance
+	    - Refactor inefficient code
+	    - Go through a few examples in a notebook where we apply the applications discussed above
+
+* Module 8: Introduction to image generation with Azure OpenAI
+	    - What is DALL.E
+	    - Azure OpenAI Portal Overview
+	    - OpenAI DALL.E Rest API and use thereof
+	    - Running through some image processing scenarios
+
+* Module 9: Using your company's own data to ground OpenAI models
+	    - Fine tuning vs User Own data
+	    - Add and connect your own data
+	    - Chat with models using your own data via API
+	    - Run through scenarios with 1 or 2 files from attendees’ data.
+
+* Module 10: Integration of OpenAI with Azure Databricks
+	     - Setup Databricks environment
+	     - provision clusters and install required packages
+	     - Setup connection between Databricks and OpenAI
+	     - Example to test functionality
+
+* Module 11: OpenAI in pandas vs Pyspark
+	     - Pandas dataframes
+	     - Pyspark dataframes
+	     - Parallel processing
+	     - Performance enhancements and scaling of solutions
+
+* Module 12: Practical Examples
+	     - Embeddings for ML models
+	     - Document Classification
+	     - Document Summarization
+	     - Document Key Information Extraction
+	     - Document Key Word Extraction
+	     - Semantic Search
+	     - Information Retrieval
+
+* Module 13: Production MLOps
+	     - Leverage simple OpenAI and Databricks example and take it through the MLOps process
+	     - DevOps and Git repos
+ 	     - Automation
+	     - Scheduling
+	     - Execution Notifications with Logic Apps
+
+* Module 14: Advanced Use Cases
+	     - Advanced use cases where we see OpenAI can play a role in your organization
+	     - How to evaluate if your organization is ready for OpenAI (OpenAI readiness assessment)
+	     - Next steps
+
+
+Candidates would need access to the following Azure Resources:
+-----------------------------------------------------------------
+1) Azure Portal
+2) Azure CLI
+3) Azure Databricks
+4) Azure Redis for Cache
+5) Azure Cognitive Search
+6) Azure Storage Account
+7) Azure OpenAI
+8) Azure DevOps
+
+
+
+
+curl -i -X POST YOUR_RESOURCE_NAME/openai/deployments/YOUR_DEPLOYMENT_NAME/extensions/chat/completions?api-version=2023-06-01-preview \
+-H "Content-Type: application/json" \
+-H "api-key: YOUR_API_KEY" \
+-H "chatgpt_url: YOUR_RESOURCE_NAME/openai/deployments/YOUR_DEPLOYMENT_NAME/extensions/chat/completions?api-version=2023-06-01-preview" \
+-H "chatgpt_key: YOUR_API_KEY" \
+-d '{"dataSources": [{"type": "AzureCognitiveSearch","parameters":{"endpoint":"YOUR_AZURE_COGNITIVE_SEARCH_ENDPOINT","key":"YOUR_AZURE_COGNITIVE_SEARCH_KEY","indexName": "YOUR_AZURE_COGNITIVE_SEARCH_INDEX_NAME"}}],"messages": [{"role": "user","content": "Is there a module that touches on Pandas code?"}]}'
+
