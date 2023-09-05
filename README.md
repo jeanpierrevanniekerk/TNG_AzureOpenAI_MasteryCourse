@@ -5,3 +5,7 @@ Make sure you have access to the following Azure resources within your tenant:
 * Azure DevOps.
 * Azure Cognitive Search.
 * Azure Redis for Cache.
+
+# Module 1 – OpenAI and Generative AI
+* Introduction to Azure OpenAI. Theoretical content contained within the slide deck.
+
