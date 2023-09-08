@@ -38,6 +38,7 @@ Make sure you have access to the following Azure resources within your tenant:
       - com.redislabs:spark-redis:2.3.0
    - Use runtime: 13.3 LTS ML (Scala 2.12, Spark 3.4.1)
    - Also reference the .ini file in your compute cluster.
+   - Ensure you have Cognitive Services Usages Reader access is enabled.
    - Reference Module 3 notebook on the Git Repository to test the connection.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%203%20-%20AZURE%20OPENAI%20%26%20DATABRICKS%20INTEGRATION
 
