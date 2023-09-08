@@ -28,7 +28,7 @@ Make sure you have access to the following Azure resources within your tenant:
 1) Exercise 1 – Setup Databricks Environment:
    - Launch Databricks Workspace.
    - Create local library using the following settings:
-      - maven coordinates: com.microsoft.azure:synapseml_2.12:0.9.5
+      - maven coordinates: com.microsoft.azure:synapseml_2.12:0.11.2
       - Repository: https://mmlspark.azureedge.net/maven
    - Ensure you have the requirements.txt file in your home directory to install the relevant libraries when running the notebooks.
    - Setup .ini file containing the required key and base for the Azure OpenAI subscription.
