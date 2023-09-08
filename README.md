@@ -32,6 +32,11 @@ Make sure you have access to the following Azure resources within your tenant:
       - Repository: https://mmlspark.azureedge.net/maven
    - Ensure you have the requirements.txt file in your home directory to install the relevant libraries when running the notebooks.
    - Setup .ini file containing the required key and base for the Azure OpenAI subscription.
+   - Create compute on databricks and install the following libraries:
+      - SynapseML
+      - com.microsoft.azure:synapseml_2.12:0.11.2
+      - com.redislabs:spark-redis:2.3.0
+   - Also reference the .ini file in your compute cluster.
    - Reference Module 3 notebook on the Git Repository to test the connection.
       - https://github.com/jeanpierrevanniekerk/TNG_AzureOpenAI_MasteryCourse/tree/main/MODULE%203%20-%20AZURE%20OPENAI%20%26%20DATABRICKS%20INTEGRATION
 
