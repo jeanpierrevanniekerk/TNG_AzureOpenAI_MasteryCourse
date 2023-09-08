@@ -32,6 +32,7 @@ Make sure you have access to the following Azure resources within your tenant:
       - Repository: https://mmlspark.azureedge.net/maven
    - Ensure you have the requirements.txt file in your home directory to install the relevant libraries when running the notebooks.
    - Setup .ini file containing the required key and base for the Azure OpenAI subscription.
+   - Setup the .env file with the required key and base for the Azure OpenAI subscription.
    - Create compute on databricks and install the following libraries:
       - SynapseML
       - com.microsoft.azure:synapseml_2.12:0.11.2
