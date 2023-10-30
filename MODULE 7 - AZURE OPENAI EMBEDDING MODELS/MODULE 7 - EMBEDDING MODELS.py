@@ -113,8 +113,8 @@ import redis
 import openai
 import os
  
-def search_vectors(query_vector, client, top_k=5):
-    base_query = "*=>[KNN 5 @embedding $vector AS vector_score]"
+def search_vectors(query_vector, client, top_k=10):
+    base_query = "*=>[KNN 10 @embedding $vector AS vector_score]"
     query = Query(base_query).return_fields("url", "vector_score").sort_by("vector_score").dialect(2)    
  
     try:

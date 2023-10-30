@@ -21,7 +21,7 @@
 
 # COMMAND ----------
 
-dbutils.fs.cp ("file:/Workspace/Repos/AzureOpenAIMasteryCourse/TNG_AzureOpenAI_MasteryCourse/DATA/bbc-news-data.csv", "dbfs:/FileStore/tables/bbc_news_data.csv")
+dbutils.fs.cp ("file:/Workspace/Repos/OpenAIMasteryCourse/TNG_AzureOpenAI_MasteryCourse/DATA/bbc-news-data.csv", "dbfs:/FileStore/tables/bbc_news_data.csv")
 
 # COMMAND ----------
 

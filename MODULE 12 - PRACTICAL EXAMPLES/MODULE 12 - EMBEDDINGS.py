@@ -116,12 +116,15 @@ df1
 
 # COMMAND ----------
 
+import time
 df['embedding'] = ''
 print(len(df))
-for i in range(len(df)):    
+for i in range(len(df)): 
+    print(i)   
     try:
         embedding = openai.Embedding.create(input=df['content'][i], deployment_id=deployment_id)
         df['embedding'][i] = embedding['data'][0]['embedding']
+        time.sleep(1)
     except Exception as err:
         i
         print(f"Unexpected {err=}, {type(err)=}")
@@ -129,7 +132,22 @@ for i in range(len(df)):
 # COMMAND ----------
 
 spark.sql(f"CREATE DATABASE IF NOT EXISTS OpenAI")
-df_sp = spark.createDataFrame(df)
+
+from pyspark.sql.types import StructType, StructField, StringType, IntegerType ,ArrayType, FloatType
+  
+# Create a spark session using getOrCreate() function 
+  
+# Define the structure for the data frame 
+schema = StructType([ 
+    StructField('category',StringType(), True), 
+    StructField('filename',StringType(), True), 
+    StructField('title', StringType(), True), 
+    StructField('content', StringType(), True), 
+    StructField('n_tokens', IntegerType(), True),
+    StructField('embedding', ArrayType(FloatType()), True) 
+]) 
+
+df_sp = spark.createDataFrame(df,schema)
 df_sp.write.mode('overwrite').option("overwriteSchema", "true").saveAsTable('openai.document_analysis_embeddings')
 
 # COMMAND ----------

@@ -85,7 +85,7 @@ else:
 # COMMAND ----------
 
 import pandas as pd
-df_orig = spark.sql('select * from openai.document_analysis_embeddings').limit(100).toPandas()
+df_orig = spark.sql('select * from openai.document_analysis_embeddings').limit(5000).toPandas()
 
 # COMMAND ----------
 
@@ -120,8 +120,6 @@ df['token_count'] = ''
 
 for idx, title, content in zip(df.index.values, df['title'].loc[df.index.values], df['content'].loc[df.index.values]):
     df['token_count'].loc[idx] = len(encoding.encode(content))
-
-df
 
 # COMMAND ----------
 

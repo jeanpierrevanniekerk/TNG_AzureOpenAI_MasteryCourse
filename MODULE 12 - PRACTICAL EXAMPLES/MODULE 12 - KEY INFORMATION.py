@@ -76,6 +76,11 @@ print(response['choices'][0]['text'])
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Extract key information per dataframe row
+
+# COMMAND ----------
+
 colname = 'key_info'
 results = pd.DataFrame(columns=[colname], index=df.index)
 
@@ -121,7 +126,7 @@ df_results
 
 df_results = spark.createDataFrame(df_results)
 df_results.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("openai.document_analysis_key_information")
-df_results = spark.sql('select * from openai.document_analysis_predictions')
+df_results = spark.sql('select * from openai.document_analysis_key_information')
 df_results.limit(10).toPandas()
 
 # COMMAND ----------

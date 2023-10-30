@@ -6,7 +6,7 @@
 
 # MAGIC %%capture
 # MAGIC !pip install requests
-# MAGIC !pip install pillow 
+# MAGIC !pip install pillow
 
 # COMMAND ----------
 

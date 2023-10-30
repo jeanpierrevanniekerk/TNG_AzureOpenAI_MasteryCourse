@@ -75,7 +75,7 @@ response['choices'][0]['text']
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ----------------
+# MAGIC ### Summarize each row of the dataframe
 
 # COMMAND ----------
 
@@ -124,7 +124,7 @@ df_results
 
 df_results = spark.createDataFrame(df_results)
 df_results.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("openai.document_analysis_summarize")
-df_results = spark.sql('select * from openai.document_analysis_predictions')
+df_results = spark.sql('select * from openai.document_analysis_summarize')
 df_results.limit(10).toPandas()
 
 # COMMAND ----------

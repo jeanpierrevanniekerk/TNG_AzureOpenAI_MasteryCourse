@@ -70,7 +70,7 @@ print(response.choices[0].text)
 
 response = openai.Completion.create(engine="text-davinci-003",
                                     prompt="--- Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. Reinforcement learning differs from supervised learning in not needing labelled input/output pairs to be presented, and in not needing sub-optimal actions to be explicitly corrected. Instead the focus is on finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge).[1] The environment is typically stated in the form of a Markov decision process (MDP), because many reinforcement learning algorithms for this context use dynamic programming techniques.[2] The main difference between the classical dynamic programming methods and reinforcement learning algorithms is that the latter do not assume knowledge of an exact mathematical model of the MDP and they target large MDPs where exact methods become infeasible.  ---                                     \
-                                    Topics I am very interested in includes AI, Pros to RL algorithms.00-explore-data\
+                                    Topics I am very interested is Machine learning. I don't want information on RL.\
                                     \
                                     Summarize this article and identify three takeaways in a bulleted fashion.",
                                     temperature=0,
@@ -108,7 +108,7 @@ print(response.choices[0].text)
 openai.api_version = "2023-07-01-preview"
 response = openai.Completion.create(engine="ChatGPT",
                                     prompt="Put fictional characters into JSON of the following format. {firstNameFIctional: jobFictional:}.",
-                                    temperature=1,
+                                    temperature=0,
                                     max_tokens=1000)
 print(response.choices[0].text)
 

@@ -24,6 +24,7 @@
 
 import pandas as pd
 df = spark.sql('select * from openai.document_analysis_embeddings').toPandas()
+df.head()
 
 # COMMAND ----------
 

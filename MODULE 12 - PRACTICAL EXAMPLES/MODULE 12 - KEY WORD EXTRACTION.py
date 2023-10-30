@@ -76,7 +76,7 @@ response['choices'][0]['text']
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ----------------
+# MAGIC #### Key word extraction per dataframe row
 
 # COMMAND ----------
 
@@ -125,7 +125,7 @@ df_results
 
 df_results = spark.createDataFrame(df_results)
 df_results.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("openai.document_analysis_key_word_extraction")
-df_results = spark.sql('select * from openai.document_analysis_predictions')
+df_results = spark.sql('select * from openai.document_analysis_key_word_extraction')
 df_results.limit(10).toPandas()
 
 # COMMAND ----------
